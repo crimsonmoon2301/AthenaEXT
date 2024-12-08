@@ -1,0 +1,28 @@
+{
+  "packages": {
+    "safe_to_remove": [
+      {
+        "name": "Microsoft.Windows.Photos",
+        "description": "The Photos app for managing images.",
+        "guidance": "Safe to remove."
+      },
+      {
+        "name": "Microsoft.Windows.GetHelp",
+        "description": "The Get Help app.",
+        "guidance": "Safe to remove."
+      }
+    ],
+    "may_cause_breakages": [
+      {
+        "name": "Microsoft.Windows.Store",
+        "description": "The Microsoft Store app.",
+        "guidance": "May cause breakages in app installations."
+      },
+      {
+        "name": "Microsoft.Windows.Cortana",
+        "description": "The Cortana assistant app.",
+        "guidance": "May cause issues with voice-based features."
+      }
+    ]
+  }
+}
