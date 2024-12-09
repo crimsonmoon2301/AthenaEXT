@@ -10,19 +10,22 @@
       {
         "name": "Microsoft.Windows.GetHelp",
         "description": "The Get Help app.",
-        "tip": "Safe to remove."
+        "tip": "Safe to remove.",
+        "comm": "get-appxpackage -AllUsers Microsoft.Windows.Photos | remove-appxpackage"
       }
     ],
     "may_cause_breakages": [
       {
         "name": "Microsoft.Windows.Store",
         "description": "The Microsoft Store app.",
-        "tip": "May cause breakages in app installations."
+        "tip": "May cause breakages in app installations.",
+        "comm": "get-appxpackage -AllUsers Microsoft.Windows.Photos | remove-appxpackage"
       },
       {
         "name": "Microsoft.Windows.Cortana",
         "description": "The Cortana assistant app.",
-        "tip": "May cause issues with voice-based features."
+        "tip": "May cause issues with voice-based features.",
+        "comm": "get-appxpackage -AllUsers Microsoft.Windows.Photos | remove-appxpackage"
       }
     ]
   }
