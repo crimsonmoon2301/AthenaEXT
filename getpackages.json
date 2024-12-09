@@ -5,7 +5,7 @@
         "name": "Microsoft.Windows.Photos",
         "description": "The Photos app for managing images.",
         "tip": "Safe to remove.",
-        "comm": "get-appxpackage Microsoft.Windows.Photos | remove-appxpackage"
+        "comm": "get-appxpackage -AllUsers Microsoft.Windows.Photos | remove-appxpackage"
       },
       {
         "name": "Microsoft.Windows.GetHelp",
