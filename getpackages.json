@@ -17,7 +17,7 @@
         "name": "Microsoft Solitare Collection",
         "description": "Collection of card games",
         "tip": "Safe to remove. You may be bored though.",
-        "comm": "get-appxpackage *solitairecollection* | remove-appxpackage"
+        "comm": "get-appxpackage -AllUsers *solitairecollection* | remove-appxpackage"
       }
     ],
     "may_cause_breakages": [
