@@ -5,14 +5,19 @@
         "name": "Microsoft.Windows.Photos",
         "description": "The Photos app for managing images.",
         "tip": "Safe to remove.",
-        "comm": "get-appxpackage -AllUsers Microsoft.Windows.Photos | remove-appxpackage"
+        "comm": "get-appxpackage -AllUsers *Microsoft.Windows.Photos* | remove-appxpackage"
       },
       {
         "name": "Microsoft.Windows.GetHelp",
         "description": "The Get Help app.",
         "tip": "Safe to remove.",
-        "comm": "get-appxpackage -AllUsers Microsoft.Windows.Photos | remove-appxpackage"
-      }
+        "comm": "get-appxPackage -AllUsers *Microsoft.GetHelp* | remove-appxpackage"
+      },
+      {
+        "name": "Microsoft Solitare Collection",
+        "description": "Collection of card games",
+        "tip": "Safe to remove. You may be bored though.",
+        "comm": "get-appxpackage *solitairecollection* | remove-appxpackage"
     ],
     "may_cause_breakages": [
       {
