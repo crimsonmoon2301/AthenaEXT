@@ -21,20 +21,24 @@
         "description": "Collection of card games",
         "tip": "Safe to remove. You may be bored though.",
         "comm": "get-appxpackage -AllUsers *solitairecollection* | remove-appxpackage"
-      }
+      },
+      {
+        "name": "Microsoft Cortana",
+        "description": "The Cortana assistant app.",
+        "tip": "Doesn't come with Windows 11, but there might be systems that have it installed. Safe and even recommended to remove.",
+        "comm": "get-appxpackage *Microsoft.549981C3F5F10* | remove-appxpackage"
+      },
     ],
     "may_cause_breakages": [
       {
         "name": "Microsoft.Windows.Store",
+        "packName": "Microsoft.WindowsStore",
         "description": "The Microsoft Store app.",
         "tip": "May cause breakages in app installations.",
         "comm": "get-appxpackage -AllUsers Microsoft.Windows.Photos | remove-appxpackage"
       },
       {
-        "name": "Microsoft.Windows.Cortana",
-        "description": "The Cortana assistant app.",
-        "tip": "May cause issues with voice-based features.",
-        "comm": "get-appxpackage -AllUsers Microsoft.Windows.Photos | remove-appxpackage"
+       
       }
     ]
   }
