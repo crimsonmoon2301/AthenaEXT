@@ -36,9 +36,6 @@
         "description": "The Microsoft Store app.",
         "tip": "May cause breakages in app installations.",
         "comm": "get-appxpackage -AllUsers Microsoft.Windows.Photos | remove-appxpackage"
-      },
-      {
-       
       }
     ]
   }
