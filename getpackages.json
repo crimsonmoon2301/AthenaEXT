@@ -35,7 +35,7 @@
         "name": "Microsoft.Windows.Store",
         "packName": "Microsoft.WindowsStore",
         "description": "The Microsoft Store app.",
-        "tip": "May cause breakages in app installations.",
+        "tip": "May cause breakages in app installations. Remove this if you're aware of the breakage!",
         "comm": "get-appxpackage -AllUsers Microsoft.WindowsStore | remove-appxpackage"
       }
     ]
