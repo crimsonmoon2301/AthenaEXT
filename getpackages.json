@@ -37,7 +37,7 @@
         "description": "The Microsoft Store app.",
         "tip": "Will cause breakage! Remove this ONLY if you know what you're doing!",
         "comm": "get-appxpackage -AllUsers *Microsoft.WindowsStore* | remove-appxpackage",
-        "reinst": "get-appxpackage -AllUsers *Microsoft.WindowsStore* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \"$($_.InstallLocation)AppXManifest.xml\"}"
+        "reinst": "get-appxpackage -AllUsers *Microsoft.WindowsStore* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \"$($_.InstallLocation)AppXManifest.xml\" -Force}"
       }
     ]
   }
