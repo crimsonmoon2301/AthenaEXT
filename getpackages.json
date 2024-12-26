@@ -24,6 +24,7 @@
       },
       {
         "name": "Microsoft Cortana",
+        "packName": "Microsoft.549981C3F5F10",
         "description": "The Cortana assistant app.",
         "tip": "Doesn't come with Windows 11, but there might be systems that have it installed. Safe and even recommended to remove.",
         "comm": "get-appxpackage *Microsoft.549981C3F5F10* | remove-appxpackage"
