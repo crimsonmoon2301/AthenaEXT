@@ -16,7 +16,7 @@
         "comm": "get-appxPackage -AllUsers *Microsoft.GetHelp* | remove-appxpackage"
       },
       {
-        "name": "Microsoft Solitare Collection",
+        "name": "Microsoft Solitaire Collection",
         "packName": "Microsoft.MicrosoftSolitaireCollection",
         "description": "Collection of card games",
         "tip": "Safe to remove. You may be bored though.",
@@ -35,7 +35,7 @@
         "packName": "Microsoft.WindowsStore",
         "description": "The Microsoft Store app.",
         "tip": "May cause breakages in app installations.",
-        "comm": "get-appxpackage -AllUsers Microsoft.Windows.Photos | remove-appxpackage"
+        "comm": "get-appxpackage -AllUsers Microsoft.WindowsStore | remove-appxpackage"
       }
     ]
   }
