@@ -2,7 +2,8 @@
   "packages": {
     "safe_to_remove": [
       {
-        "name": "Microsoft.Windows.Photos",
+        "name": "Windows Photo Viewer",
+        "packName": "Microsoft.Windows.Photos",
         "description": "The Photos app for managing images.",
         "tip": "Safe to remove.",
         "comm": "get-appxpackage -AllUsers *Microsoft.Windows.Photos* | remove-appxpackage"
