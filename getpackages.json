@@ -51,6 +51,34 @@
         "description": "A program used to view maps. Similar to how Google Maps is for Android.",
         "tip": "Safe to remove; however, Windows Widgets might break with forecast.",
         "comm": "Get-AppxPackage -AllUsers *Microsoft.BingWeather* | Remove-AppxPackage"
+      },
+      {
+        "name": "Windows Bing News",
+        "packName": "Microsoft.BingNews",
+        "description": "A program used for news via Widgets.",
+        "tip": "Safe to remove; however, the widgets might not show news correctly, if at all.",
+        "comm": "Get-AppxPackage -AllUsers *Microsoft.BingNews* | Remove-AppxPackage"
+      },
+      {
+        "name": "Microsoft Xbox App",
+        "packName": "Microsoft.XboxApp",
+        "description": "Microsoft Xbox platform for gaming.",
+        "tip": "Safe to remove; however you might have issues with connecting PC to your XBOX",
+        "comm": "Get-AppxPackage -AllUsers *Microsoft.XboxApp* | Remove-AppxPackage"
+      },
+      {
+        "name": "Microsoft Xbox GameBar",
+        "packName": "Microsoft.XboxGameOverlay",
+        "description": "Microsoft Xbox overlay for games",
+        "tip": "Safe to remove; however you might have issues with recording, screenshotting. Games may show an error that the overlay is missing. Easy to fix, though",
+        "comm": "Get-AppxPackage -AllUsers *Microsoft.XboxGameOverlay* | Remove-AppxPackage"
+      },
+      {
+        "name": "Microsoft Store",
+        "packName": "Microsoft.WindowsStore",
+        "description": "Microsoft Store for getting programs.",
+        "tip": "Will break driver installations, and possibly cripple the system since most programs are via store. NOT safe to remove.",
+        "comm": "Get-AppxPackage -AllUsers *Microsoft.XboxGameOverlay* | Remove-AppxPackage"
       }
     ]
   }
