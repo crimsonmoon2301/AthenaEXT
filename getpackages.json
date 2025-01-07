@@ -6,51 +6,51 @@
         "packName": "Microsoft.Windows.Photos",
         "description": "The Photos app for managing images.",
         "tip": "Safe to remove.",
-        "comm": "get-appxpackage -AllUsers *Microsoft.Windows.Photos* | remove-appxpackage"
+        "comm": "Get-AppxPackage -AllUsers *Microsoft.Windows.Photos* | Remove-AppxPackage"
       },
       {
         "name": "Windows Help Assistant",
         "packName": "Microsoft.Windows.GetHelp",
         "description": "The Get Help app.",
         "tip": "Safe to remove.",
-        "comm": "get-appxPackage -AllUsers *Microsoft.GetHelp* | remove-appxpackage"
+        "comm": "Get-AppxPackage -AllUsers *Microsoft.GetHelp* | Remove-AppxPackage"
       },
       {
         "name": "Microsoft Solitaire Collection",
         "packName": "Microsoft.MicrosoftSolitaireCollection",
-        "description": "Collection of card games",
+        "description": "Collection of card games.",
         "tip": "Safe to remove. You may be bored though.",
-        "comm": "get-appxpackage -AllUsers *solitairecollection* | remove-appxpackage"
+        "comm": "Get-AppxPackage -AllUsers *solitairecollection* | Remove-AppxPackage"
       },
       {
         "name": "Clipchamp Editor",
         "packName": "Clipchamp.Clipchamp",
         "description": "A preinstalled video editor.",
         "tip": "Safe to remove, as this is a very limited version.",
-        "comm": "get-appxpackage -AllUsers *Clipchamp.Clipchamp* | remove-appxpackage"
+        "comm": "Get-AppxPackage -AllUsers *Clipchamp.Clipchamp* | Remove-AppxPackage"
       },
       {
         "name": "Windows 3D Viewer",
         "packName": "Microsoft.Microsoft3DViewer",
         "description": "Used to view 3D models in real time.",
         "tip": "Safe to remove.",
-        "comm": "get-appxpackage *Microsoft.Microsoft3DViewer* | remove-appxpackage"
+        "comm": "Get-AppxPackage -AllUsers *Microsoft.Microsoft3DViewer* | Remove-AppxPackage"
       },
       {
         "name": "Microsoft Cortana",
         "packName": "Microsoft.549981C3F5F10",
         "description": "The Cortana assistant app.",
         "tip": "Doesn't come with Windows 11, but there might be systems that have it installed.",
-        "comm": "get-appxpackage *Microsoft.549981C3F5F10* | remove-appxpackage"
+        "comm": "Get-AppxPackage -AllUsers *Microsoft.549981C3F5F10* | Remove-AppxPackage"
       }
     ],
     "may_cause_breakages": [
       {
         "name": "Windows Maps",
         "packName": "Microsoft.BingWeather",
-        "description": "A program used to view maps. Similar to how Google Maps is for android.",
-        "tip": "Safe to remove, however Windows Widgets might break with forecast.",
-        "comm": "get-appxpackage *'Microsoft.BingWeather* | remove-appxpackage"
+        "description": "A program used to view maps. Similar to how Google Maps is for Android.",
+        "tip": "Safe to remove; however, Windows Widgets might break with forecast.",
+        "comm": "Get-AppxPackage -AllUsers *Microsoft.BingWeather* | Remove-AppxPackage"
       }
     ]
   }
