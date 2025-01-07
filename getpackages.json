@@ -23,6 +23,20 @@
         "comm": "get-appxpackage -AllUsers *solitairecollection* | remove-appxpackage"
       },
       {
+        "name": "Clipchamp Editor",
+        "packName": "Clipchamp.Clipchamp",
+        "description": "A preinstalled video editor."
+        "tip": "Safe to remove, as this is a very limited version.",
+        "comm": "get-appxpackage -AllUsers *Clipchamp.Clipchamp* | remove-appxpackage"
+      },
+      {
+        "name": "Windows 3D Viewer",
+        "packName": "Microsoft.Microsoft3DViewer",
+        "description": "Used to view 3D models in real time.",
+        "tip": "Safe to remove.",
+        "comm": "get-appxpackage *Microsoft.Microsoft3DViewer* | remove-appxpackage"
+      },
+      {
         "name": "Microsoft Cortana",
         "packName": "Microsoft.549981C3F5F10",
         "description": "The Cortana assistant app.",
@@ -32,12 +46,11 @@
     ],
     "may_cause_breakages": [
       {
-        "name": "placeholder",
-        "packName": "Microsoft.placeholder",
-        "description": "placeholder text",
-        "tip": "sample text",
-        "comm": "placeholder",
-        "reinst": "placeholder"
+        "name": "Windows Maps",
+        "packName": "Microsoft.BingWeather",
+        "description": "A program used to view maps. Similar to how Google Maps is for android.",
+        "tip": "Safe to remove, however Windows Widgets might break with forecast.",
+        "comm": "get-appxpackage *'Microsoft.BingWeather* | remove-appxpackage"
       }
     ]
   }
