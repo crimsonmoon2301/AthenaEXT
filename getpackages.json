@@ -25,7 +25,7 @@
       {
         "name": "Clipchamp Editor",
         "packName": "Clipchamp.Clipchamp",
-        "description": "A preinstalled video editor."
+        "description": "A preinstalled video editor.",
         "tip": "Safe to remove, as this is a very limited version.",
         "comm": "get-appxpackage -AllUsers *Clipchamp.Clipchamp* | remove-appxpackage"
       },
