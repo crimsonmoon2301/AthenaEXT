@@ -46,9 +46,9 @@
     ],
     "may_cause_breakages": [
       {
-        "name": "Windows Maps",
+        "name": "Windows Weather",
         "packName": "Microsoft.BingWeather",
-        "description": "A program used to view maps. Similar to how Google Maps is for Android.",
+        "description": "A program used to show weather. Earlier was Bing, now renamed as MSN",
         "tip": "Safe to remove; however, Windows Widgets might break with forecast.",
         "comm": "Get-AppxPackage -AllUsers *Microsoft.BingWeather* | Remove-AppxPackage"
       },
