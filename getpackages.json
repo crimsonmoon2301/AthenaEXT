@@ -64,7 +64,7 @@
         "packName": "Microsoft.GamingApp",
         "description": "Microsoft Xbox platform for gaming.",
         "tip": "Safe to remove; however you might have issues with connecting PC to your XBOX",
-        "comm": "Get-AppxPackage -AllUsers *Microsoft.XboxApp* | Remove-AppxPackage"
+        "comm": "Get-AppxPackage -AllUsers *Microsoft.GamingApp* | Remove-AppxPackage"
       },
       {
         "name": "Microsoft Xbox GameBar",
